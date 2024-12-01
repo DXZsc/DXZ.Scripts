@@ -1,7 +1,7 @@
 -- @VardyScripts
 -- @Markin Tuazon
 -- @DXZ Group
--- @2-5 My friends
+-- Do Not Skid
 -- Do Not Skid
 -- Do Not Skid
 getgenv().DXZscripts = {
