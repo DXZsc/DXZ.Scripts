@@ -486,16 +486,25 @@ Settings100:AddTextbox(
             Vector3.new(currentvelocity.X, currentvelocity.Y / 0.5, currentvelocity.Z)
     end
 
-if TrenchWare.AutoAir.AirType == true then
+if DXZ.AutoAir.AirType == true then
     if Plr.Character.Humanoid.Jump == true and Plr.Character.Humanoid.FloorMaterial == Enum.Material.Air then
-        TrenchWare.AutoAir.AimPart = "RightFoot"
+        DXZ.AutoAir.AimPart = "RightFoot"
     else
         Plr.Character:WaitForChild("Humanoid").StateChanged:Connect(function(old,new)
             if new == Enum.HumanoidStateType.Freefall then
                 settings.main.Part = "RightFoot"
             else
-                TrenchWare.AutoAir.AimPart = "LowerTorso"
+                DXZ.AutoAir.AimPart = "LowerTorso"
             end
         end)
     end
 end
+
+local AimingTab = Window:CreateTab("idk")
+local trust = AimingTab:CreateSector("Scripts", "left")
+
+trust:AddButton(
+    "dxz basic",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
+    end
