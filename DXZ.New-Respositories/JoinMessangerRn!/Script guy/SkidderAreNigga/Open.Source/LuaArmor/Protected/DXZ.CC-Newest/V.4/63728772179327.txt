@@ -429,6 +429,14 @@ Settings100:AddTextbox(
     end
 )
 
+local trust2 = AimingTab:CreateSector("Scripts", "right")
+
+trust:AddButton(
+    "Frostbyte leaks",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
+    end
+)
 -- { Function } --
 
     if getgenv().AutoPred == true then
@@ -497,19 +505,5 @@ if DXZ.AutoAir.AirType == true then
                 DXZ.AutoAir.AimPart = "LowerTorso"
             end
         end
-    end
-end
-
-local AimingTab = Window:CreateTab("idk")
-local trust = AimingTab:CreateSector("Scripts", "left")
-
-trust:AddButton(
-    "Frostbyte Leak",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
-    end
-)
-            end
-        end)
     end
 end
