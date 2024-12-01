@@ -56,10 +56,10 @@ getgenv().DXZscripts = {
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/glokdraco/Loaders/d2c4e27a5e159b8226b21f6d0287bb21220b0ef8/OFFMUD2GRETTOLIB"))()
 local Window = Library:CreateWindow("DXZ.Scripts | v4.0.0 [SECRET]", Vector2.new(300, 300), Enum.KeyCode.V)
 
-local AimingTab = Window:CreateTab("AimBots")
-local trust = AimingTab:CreateSector("MAIN", "left")
+local AimingTab = Window:CreateTab("Main Side")
+local trust = AimingTab:CreateSector("RAGE", "left")
 
-dxz:AddButton(
+trust:AddButton(
     "dxz basic",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DXZsc/DXZ.Scripts/refs/heads/main/DXZ.New-Respositories/JoinMessangerRn!/Script%20guy/SkidderAreNigga/Open.Source/LuaArmor/Protected/DXZ.CC-Newest/63627829994319.7Z", true))();
