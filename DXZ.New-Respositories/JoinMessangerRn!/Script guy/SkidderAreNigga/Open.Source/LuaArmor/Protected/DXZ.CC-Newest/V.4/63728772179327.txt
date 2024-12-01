@@ -496,7 +496,7 @@ if DXZ.AutoAir.AirType == true then
             else
                 DXZ.AutoAir.AimPart = "LowerTorso"
             end
-        end)
+        end
     end
 end
 
@@ -508,3 +508,7 @@ trust:AddButton(
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
     end
+            end
+        end)
+    end
+end
