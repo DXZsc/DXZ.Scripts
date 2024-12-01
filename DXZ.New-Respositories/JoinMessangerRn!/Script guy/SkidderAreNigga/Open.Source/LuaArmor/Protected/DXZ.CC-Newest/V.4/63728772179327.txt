@@ -1,4 +1,4 @@
-getgenv().TrenchWare = {
+getgenv().DXZscripts = {
     ["CameraLock"] = {
         ["Enabled"] = true,
      },
