@@ -1,7 +1,4 @@
--- @VardyScripts
--- @Markin Tuazon
--- @DXZ Groups
-getgenv().DXZscripts = {
+getgenv().TrenchWare = {
     ["CameraLock"] = {
         ["Enabled"] = true,
      },
@@ -54,26 +51,26 @@ getgenv().DXZscripts = {
 }
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/glokdraco/Loaders/d2c4e27a5e159b8226b21f6d0287bb21220b0ef8/OFFMUD2GRETTOLIB"))()
-local Window = Library:CreateWindow("DXZ.Scripts | v4.0.0 [SECRET]", Vector2.new(300, 300), Enum.KeyCode.V)
+local Window = Library:CreateWindow("DXZscripts | v4.0.0 [SECRET]", Vector2.new(300, 300), Enum.KeyCode.V)
 
-local AimingTab = Window:CreateTab("Main Side")
+local AimingTab = Window:CreateTab("HvH")
 local trust = AimingTab:CreateSector("RAGE", "left")
 
 trust:AddButton(
-    "dxz basic",
+    "dxz v.3",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DXZsc/DXZ.Scripts/refs/heads/main/DXZ.New-Respositories/JoinMessangerRn!/Script%20guy/SkidderAreNigga/Open.Source/LuaArmor/Protected/DXZ.CC-Newest/63627829994319.7Z", true))();
     end
 )
 
 trust:AddButton(
-    "frostbyte",
+    "FrostWare (Skidded)",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
     end
 )
 
-local Settings = AimingTab:CreateSector("Settings (not work)", "left")
+local Settings = AimingTab:CreateSector("Settings", "left")
 
 Settings:AddTextbox(
     "Prediction",
@@ -100,7 +97,7 @@ Settings:AddTextbox(
 )
 
 Settings:AddTextbox(
-    "Smoothness (i lazy)",
+    "Smoothness (not working)",
     0.4,
     function(State)
         local Smoothness = State
@@ -134,7 +131,7 @@ Settings:AddToggle(
 local trust2 = AimingTab:CreateSector("ANOTHER", "right")
 
 trust2:AddButton(
-    "DXZscripts auto air",
+    "TrenchWare auto air",
     function()
         local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -253,7 +250,7 @@ cornerUI.Parent = TextButton
     end
 )
 
-local pekpek = AimingTab:CreateSector("Settings", "right")
+local pekpek = AimingTab:CreateSector("ignore", "right")
 
 pekpek:AddTextbox(
     "Air Prediction",
@@ -271,7 +268,7 @@ pekpek:AddTextbox(
     end
 )
 
-local gay = AimingTab:CreateSector("LEGIT", "right")
+local gay = AimingTab:CreateSector("Ahh", "right")
 
 gay:AddButton(
     "Fucking 360",
@@ -428,6 +425,7 @@ Settings100:AddTextbox(
         local RotationSpeed = State
     end
 )
+
 -- { Function } --
 
     if getgenv().AutoPred == true then
@@ -485,16 +483,16 @@ Settings100:AddTextbox(
             Vector3.new(currentvelocity.X, currentvelocity.Y / 0.5, currentvelocity.Z)
     end
 
-if DXZ.AutoAir.AirType == true then
+if DxzWare.AutoAir.AirType == true then
     if Plr.Character.Humanoid.Jump == true and Plr.Character.Humanoid.FloorMaterial == Enum.Material.Air then
-        DXZ.AutoAir.AimPart = "RightFoot"
+        TrenchWare.AutoAir.AimPart = "RightFoot"
     else
         Plr.Character:WaitForChild("Humanoid").StateChanged:Connect(function(old,new)
             if new == Enum.HumanoidStateType.Freefall then
                 settings.main.Part = "RightFoot"
             else
-                DXZ.AutoAir.AimPart = "LowerTorso"
+                DxzWare.AutoAir.AimPart = "LowerTorso"
             end
-        end
+        end)
     end
 end
