@@ -131,7 +131,7 @@ Settings:AddToggle(
     end
 )
 
-local trust2 = AimingTab:CreateSector("MAIN 2", "right")
+local trust2 = AimingTab:CreateSector("ANOTHER", "right")
 
 trust2:AddButton(
     "DXZscripts auto air",
@@ -271,7 +271,7 @@ pekpek:AddTextbox(
     end
 )
 
-local gay = AimingTab:CreateSector("MAIN 3", "right")
+local gay = AimingTab:CreateSector("LEGIT", "right")
 
 gay:AddButton(
     "Fucking 360",
