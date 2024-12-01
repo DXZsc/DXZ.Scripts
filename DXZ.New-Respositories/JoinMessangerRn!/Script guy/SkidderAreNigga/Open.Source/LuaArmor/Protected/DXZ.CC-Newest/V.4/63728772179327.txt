@@ -504,7 +504,7 @@ local AimingTab = Window:CreateTab("idk")
 local trust = AimingTab:CreateSector("Scripts", "left")
 
 trust:AddButton(
-    "dxz basic",
+    "Frostbyte Leak",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
     end
