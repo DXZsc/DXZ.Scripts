@@ -1,3 +1,9 @@
+-- @VardyScripts
+-- @Markin Tuazon
+-- @DXZ Group
+-- @2-5 My friends
+-- Do Not Skid
+-- Do Not Skid
 getgenv().DXZscripts = {
     ["CameraLock"] = {
         ["Enabled"] = true,
@@ -131,7 +137,7 @@ Settings:AddToggle(
 local trust2 = AimingTab:CreateSector("ANOTHER", "right")
 
 trust2:AddButton(
-    "TrenchWare auto air",
+    "DxzScripts auto air",
     function()
         local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
