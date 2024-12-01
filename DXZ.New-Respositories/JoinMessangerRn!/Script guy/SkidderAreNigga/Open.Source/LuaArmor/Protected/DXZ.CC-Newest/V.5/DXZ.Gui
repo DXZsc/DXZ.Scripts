@@ -1,0 +1,79 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"DXZ Hub", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+-- Tabs
+
+local tab1 = window:CreateTab("HvH")
+local tab2 = window:CreateTab("Another HvH")
+
+-- Buttons
+
+tab1:CreateButton("StarHook", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/dahood/main/starhook"))()
+end)
+
+tab1:CreateButton("Phyx", function()
+getgenv().phyx_target = {
+    ["Main"] = {
+       ["Prediction"] = 0.16253,
+       ["Partz"] = { "UpperTorso", "Head", "UpperTorso" },
+       ["Air Delay"] = { true, delay = 0.14, delay2 = 0.34 }, -- Delay2 will always be active even if you setted the input to true. If you don't want it, then set it to 0 ( recommend to set it to false and then use 0 delay2 for blatant use )
+       ["AutoPred"] = false,
+       ["Dot"] = true,
+       ["No Floor Shots"] = true,
+       ["Offsets"] = { true, value = 1.16150 } -- // recommended; 0.16288 for 160+ ping. NOT an prediction. Create your own offset! ts is new and different from other locks!!
+    },
+    ["Aim Assist"] = {
+       ["Cam Enabled"] = true,
+       ["Partz"] = "UpperTorso",
+       ["Use Smoothness"] = true,
+       ["Smoothness Value"] = 0.41
+    },
+    ["GUIs"] = {
+       ["Save Position"] = true,
+       ["Auto Air"] = true,
+       ["Buy Items"] = true, -- // Only works on VFS games.
+       ["Reset"] = true,
+       ["Leave"] = false,
+       ["Bullet Tp"] = true, -- //  works most dh games
+       ["Trigger Bot"] = { false, delay = 5.5 }, -- // under maintenance, but works without delay.
+       ["Macro"] = { true, type = "Legit" } -- // Can be: "Legit" , "Speed" , "CFrame".
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/plah911/phyx/refs/heads/main/prime%20is%20back"))();
+end)
+
+tab2:CreateButton("FrostByte", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
+end)
+
+tab2:CreateButton("Psalms", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Adonis-Anticheat-Bypass-11111", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/skidscript/refs/heads/main/antikick.lua"))()
+local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
+local oldHttpGetAsync
+oldHttpGetAsync = hookfunction(game.HttpGet, function(self, url)
+    if type(url) == "string" then
+        if string.match(url, "https://raw.githubusercontent.com/RobloxSkids/HwidWl/refs/heads/main/Main.lua") then
+            return RbxAnalyticsService:GetClientId()
+        end
+    end
+    return oldHttpGetAsync(self, url)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/skidscript/refs/heads/main/WeGonBeOk.lua.txt"))()
+end)
+
+-- info
+
+tab1:CreateInfo("Ezzz")
+tab2:CreateInfo("Private loll")
+
+-- Labels
+
+tab1:CreateLabel("</>")
+tab2:CreateLabel("DXZ ontop")
