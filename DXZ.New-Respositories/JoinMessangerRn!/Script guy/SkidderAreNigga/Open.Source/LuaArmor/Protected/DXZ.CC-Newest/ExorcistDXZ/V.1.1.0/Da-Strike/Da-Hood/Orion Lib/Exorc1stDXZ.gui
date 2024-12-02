@@ -1,0 +1,160 @@
+-- @VardyScripts
+-- No deopfuscator
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "ExorcistDXZ | [⭐] Da Strike", HidePremium = false, IntroText = "Exorc1st", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+-- Tabs
+
+local Tab = Window:MakeTab({
+	Name = "HvH ⭐",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Toggles
+
+Tab:AddButton({
+	Name = "DXZ V.3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DXZsc/DXZ.Scripts/refs/heads/main/DXZ.New-Respositories/JoinMessangerRn!/Script%20guy/SkidderAreNigga/Open.Source/LuaArmor/Protected/DXZ.CC-Newest/63627829994319.7Z", true))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DXZ V.4 OP",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DXZsc/DXZ.Scripts/refs/heads/main/DXZ.New-Respositories/JoinMessangerRn!/Script%20guy/SkidderAreNigga/Open.Source/LuaArmor/Protected/DXZ.CC-Newest/V.4/63728772179327.txt", true))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FrostByte",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-/main/Frostbyte%20leak", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "StarHook Dpi 512",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/dahood/main/starhook"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "zombie run anim",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VardySc/ProjectValkyrie/refs/heads/main/ValkyrieZombie/Animation.side/Protected.lua/LuarmorProtect/Watch%20porn/Zombie.TXT/637282988582.TXT", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lorenlol Locks",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/P1czCsxK/raw"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Khen.CC",
+	Callback = function()
+      		getgenv().khen = {
+    Enabled = true, -- dont change here
+    prediction= 0.16138,
+    jumpoffset = -0.087,
+    ResolverEnabled = true, -- false or true
+    SelectedPart = "HumanoidRootPart", -- body part
+    AutoPrediction = true, -- false or true
+    AutoPredMode = "PingBased",  
+    ShootDelay = 0.1,
+    NoGroundShot = true, -- false or true
+    AutoAir = true, -- false or true
+    LookAt = false, -- false or true
+    smoothness = 0.9,
+    TracerEnabled = true, -- false or true
+    cham = true -- false or true
+}
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/khen.cc%20v1.txt", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Skibidi Hook",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/SvLaydLR",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Vascal Antilock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-antilock-button"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "XGRE beta",
+	Callback = function()
+      		getgenv().Hallelujah = {
+    Prediction = 0.22988,
+    SmoothnessAmount = 1,
+    EasingStyle = Enum.EasingStyle.Quad,
+    EasingDirection = Enum.EasingDirection.Out,
+    JumpOffset = 7,
+    HitParts = "HumanoidRootPart"
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/klxuz/LuaArmor/refs/heads/main/Protected_4564417774685444.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BATE Best Aimlocks",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Creatingtesting/BateTargetAim/main/TargetAimByezterminals/And/hauntedyards_"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+  	end    
+})
+
+
+
+
+
+
+
+-- Labels
+
+Tab:AddLabel("Update V.1.1.0")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OrionLib:Init()
