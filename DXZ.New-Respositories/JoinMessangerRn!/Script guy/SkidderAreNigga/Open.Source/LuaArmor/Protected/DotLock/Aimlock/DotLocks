@@ -56,7 +56,7 @@ if isTouchEnabled then
     player.CharacterRemoving:Connect(function()
         tool.Parent = player.Backpack
     end)
-    NotifyLib.prompt('Mobile ZolexSmth Tool', 'DXZWare Tool Has Successfully Loaded!', 5)    
+    NotifyLib.prompt('Mobile DXZTools', 'DXZWare Tool Has Successfully Loaded!', 5)    
 elseif isMouseEnabled and isMouseEnabled then
     NotifyLib.prompt('Pc Device Detected', 'Smite them with V!', 5)
 elseif isGamepadEnabled and isTouchEnabled then
@@ -64,7 +64,7 @@ elseif isGamepadEnabled and isTouchEnabled then
     getgenv().keytoclick = "V"
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
-    tool.Name = "ZolexSmth"
+    tool.Name = "DxzDot"
    tool.Activated:connect(function()
         VirtualInputManager:SendKeyEvent(true, keytoclick, false, game)
     end)
@@ -88,7 +88,7 @@ elseif isMouseEnabled and isMouseEnabled and isTouchEnabled then
     player.CharacterRemoving:Connect(function()
         tool.Parent = player.Backpack
     end)
-    NotifyLib.prompt('Zolex Tool', 'DXZWare Tool Has Successfully Loaded!', 5)
+    NotifyLib.prompt('DXZ Tool', 'DXZWare Tool Has Successfully Loaded!', 5)
 end
 
 Settings = {   
