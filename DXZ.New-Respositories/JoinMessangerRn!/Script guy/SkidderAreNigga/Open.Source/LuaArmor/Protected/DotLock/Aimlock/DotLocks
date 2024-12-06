@@ -1,7 +1,7 @@
 --[[
 i fixed this fucking aimlock not even worth my time i could make a better one than this easily but oh well fuck it
 
-people need to learn to organize their script :sob:
+people need to learn to organize their script lol
 
 i dont even understand the script because it make 0 sense to me ðŸ˜­ðŸ™
 
@@ -15,7 +15,7 @@ idk who is the original thats why i say i created it
 
 whoever skids script to leak them is a pooron thbðŸ˜ª
 
-join my discord fr fr discord.gg/iosexploiters
+Join The messanger niggur
 
 extra: cleaned the script IM NOT MAKING IT SUPPORT OTHER GAMES HELL NO 
 bro i was about to make it support da fights and games that uses this remote function:
@@ -27,7 +27,7 @@ local args = {
       }
 }
 but i give up bro aint even my lock i only understand my scripts
--TheRealX_ORA
+-VardyScripts
 ]]--
 
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
