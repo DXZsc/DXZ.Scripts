@@ -1,6 +1,12 @@
 -- xTRNL By @VardyScripts
 -- OP Camlocks
 -- Subs to my channel
+-- RBXH4X
+-- Skid
+-- Free Skid
+-- Paid
+-- im tired
+-- Niggur
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -114,11 +120,11 @@ Logo.Name = "Logo"
 Logo.Parent = Frame
 Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Logo.BackgroundTransparency = 5.000
-Logo.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0.326732665, 0, 0, 0)
 Logo.Size = UDim2.new(0, 70, 0, 70)
-Logo.Image = "rbxassetid://85195006884137"
+Logo.Image = "rbxassetid://75534645719283"
 Logo.ImageTransparency = 0.200
 
 TextButton.Parent = Frame
